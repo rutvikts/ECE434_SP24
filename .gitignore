@@ -1,2 +1,4 @@
 # Ignore .DS_Store files
 *.DS_Store
+.DS_Store
+MP1_data_visualization/.DS_Store
