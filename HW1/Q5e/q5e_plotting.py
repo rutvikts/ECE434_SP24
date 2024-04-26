@@ -33,6 +33,8 @@ for i in range(0,len(xdata)):
     # print(inv(S),points[:,i])
     # points_new_basis[:,i] = inv(S) * points[:,i].T
     points_new_basis[:,i] = inv(S).dot(points[:,i])
+
+    # for vectors:
     # ax.quiver(0, 0, 0, points_new_basis[0,i], points_new_basis[1,i], points_new_basis[2,i], colors=c, arrow_length_ratio=0.1)
 
 print("new", points_new_basis)
